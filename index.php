@@ -116,7 +116,7 @@ $database="IRFiY5URIk";
         </form>
         <?php
         if($insert==true)
-         echo "<p class='submsg'>Thanks for submitting your review</p>";
+         echo "<p class='submsg'>Thanks for submitting /p>";
         ?>
 
     </div>
