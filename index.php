@@ -65,7 +65,7 @@ $database="IRFiY5URIk";
             <input type="text" name="institution" id="institution" placeholder="Enter Institution name"  required>
             <br>
             
-            <select name="district" id="district">
+            <select name="district" id="district" required>
 
                 <option >Select District</option>
                 <?php
@@ -102,7 +102,7 @@ $database="IRFiY5URIk";
                 ?>
             </select>
             <br>
-            <select name="localbodytype" id="localbodytype"  >
+            <select name="localbodytype" id="localbodytype"  required >
                 <option >Select local body type</option>
                 <option value="Panchayath">Panchayath</option>
                 <option value="Muncipality">Muncipality</option>
@@ -111,7 +111,7 @@ $database="IRFiY5URIk";
             
             <input type="text" name="localbodyname" id="localbodyname" placeholder="Enter Your Local Body Name"required>
             <input type="text" name="address" id="address"placeholder="Enter Your Address" required>
-            <input type="text" name="pincode" id="pincode" placeholder="Enter Your Pincode" pattern="[0-9]{6}" size="6" maxlength="6"minlength="6">
+            <input type="text" name="pincode" id="pincode" placeholder="Enter Your Pincode" pattern="[0-9]{6}" size="6" maxlength="6"minlength="6" required>
             <input type="submit" name="Submit" id="Submit">
         </form>
         <?php
