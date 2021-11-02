@@ -27,8 +27,7 @@ $database="IRFiY5URIk";
  $pincode=$_POST['pincode'];
 
  $sql="INSERT INTO `institution` (`Institution`, `district`, `localbodytype`, `localbodyname`, `address`, `pin`) VALUES ('$institution', '$district', '$localbodytype', '$localbodyname', '$address', '$pincode');";
- //$drop_query="select * from districts; ";
-//$result_drop=mysqli_query($con,$drop_query);
+ 
 
  
  if($con->query($sql)==true)
@@ -116,12 +115,12 @@ $database="IRFiY5URIk";
         </form>
         <?php
         if($insert==true)
-         echo "<p class='submsg'>Thanks for submitting /p>";
+         echo "<p class='submsg'>Thanks for submitting </p>";
         ?>
 
     </div>
     
-    <!--INSERT INTO `institution` (`Institution`, `district`, `localbodytype`, `localbodyname`, `address`, `pin`) VALUES ('lbs', 'trivandrum', 'corporation', 'trivandrum', 'poojapura', '695001');
---><script src="index.js"></script>
+
+<script src="index.js"></script>
 </body>
 </html>
