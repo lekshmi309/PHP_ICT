@@ -66,7 +66,7 @@ $database="IRFiY5URIk";
             
             <select name="district" id="district" required>
 
-                <option >Select District</option>
+                <option value="">Select District</option>
                 <?php
                     //$server="localhost";
                     //$username="root";
@@ -102,7 +102,7 @@ $database="IRFiY5URIk";
             </select>
             <br>
             <select name="localbodytype" id="localbodytype"  required >
-                <option >Select local body type</option>
+                <option value="" >Select local body type</option>
                 <option value="Panchayath">Panchayath</option>
                 <option value="Muncipality">Muncipality</option>
                 <option value="Corporation">Corporation</option>
